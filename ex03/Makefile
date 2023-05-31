@@ -6,13 +6,13 @@
 #    By: pcatapan <pcatapan@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/05/29 19:43:58 by pcatapan          #+#    #+#              #
-#    Updated: 2023/05/29 20:15:31 by pcatapan         ###   ########.fr        #
+#    Updated: 2023/05/31 21:06:45 by pcatapan         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME		=	ex00
 
-SRC 		=	src/*.cpp
+SRC 		=	*.cpp
 
 OBJC		=	$(SRC:%.cpp=%.o)
 
